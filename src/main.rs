@@ -2,7 +2,7 @@ use classfile::access_flags::{AccessFlagContext, AccessFlags};
 use classfile::attributes::Attribute;
 use classfile::classfile::ClassFile;
 use classfile::constant_pool_tag::ConstantPoolTag;
-use classfile::signature_parser::{JVMSignature, ValueType, parse_jvm_descriptor};
+use classfile::signature_parser::{parse_jvm_descriptor, JVMSignature, ValueType};
 use std::fs::File;
 use std::io::{BufReader, BufWriter, Write};
 

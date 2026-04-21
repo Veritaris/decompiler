@@ -1,7 +1,6 @@
 use crate::jannotation::JavaAnnotation;
 use crate::jfield::JavaField;
 use crate::jmethod::JavaMethod;
-use std::cell::{Ref, RefCell};
 
 pub struct JavaClass<'a> {
     minor_version: u16,
